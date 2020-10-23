@@ -8,7 +8,7 @@ class GetMeteo {
 
   dynamic meteo() async {
     var u =
-        "http://api.openweathermap.org/data/2.5/weather?q=$city&units=metric&appid=3396870d0ee9ff39c346c25710e639d2";
+        "http://api.openweathermap.org/data/2.5/weather?q=$city&units=metric&appid=PUTYOURAPPIDHERE !";
     var url = Uri.parse(u);
     HttpClient client = new HttpClient();
 
